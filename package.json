@@ -1,0 +1,16 @@
+{
+  "name": "frymarket-x402",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "x402 pay-per-request marketplace data API for fry.market (Algorand)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@x402-avm/express": "^2.6.1",
+    "@x402-avm/avm": "^2.6.1",
+    "@x402-avm/core": "^2.6.1",
+    "@x402-avm/extensions": "^2.6.1",
+    "express": "^4.21.2"
+  }
+}
